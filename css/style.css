@@ -1,0 +1,95 @@
+body{
+    background-color: azure;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+}
+/* header section */
+header{
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1.8rem 1.5rem 0 1.5rem;
+}
+.button , .button2 {
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 37, 66, 1);
+    background-color: rgba(232, 239, 242, 1);
+}
+/* first section */
+.first-section{
+    margin: 4rem 1.5rem 2.3rem;
+    max-width: 327px;
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: rgba(22, 37, 66, 1);
+    margin-bottom: 2rem;
+}
+.first-section-p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(123, 139, 173, 1);
+    margin-bottom: 2rem;
+}
+.div-1{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+.button2{
+    background-color: rgba(241, 103, 24, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-right: 2rem;
+}
+/* second section */
+.image-pad{
+    background-image: url("../image/mobile/mobile-3.jpg");
+    height: 331px;
+    overflow: hidden;
+    max-width: 372px;
+    background-repeat: no-repeat;
+    background-size: 372px;
+    border-radius: 1.3rem 0 0 1.3rem;
+    left: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.image-main-div{
+    display: flex;
+}
+.image-div2{
+    background-image: url("../image/mobile/mobile-2.jpg");
+    height: 193px;
+    width:144px ;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(241, 103, 24, 1);
+    opacity: 0.75;
+    background-size: 144px;
+    margin-right: 1.5rem;
+    border-radius: 1.3rem ;
+    position: relative;
+    left:  -1rem;
+    display: inline-block;
+}
+.image-div3{
+    background-image: url("../image/mobile/mobile-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 220px;
+    width: 220px;
+    height: 193px;
+    border-radius: 1.3rem;
+    
+
+}
