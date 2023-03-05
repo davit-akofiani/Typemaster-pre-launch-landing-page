@@ -93,3 +93,64 @@ h1{
     
 
 }
+/* next section */
+.next-div{
+    max-width: 327px;
+    margin: 2rem 1.5rem 9rem 1.5rem;
+}
+.next-h2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    color: rgba(22, 37, 66, 1);
+}
+.next-p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(123, 139, 173, 1);
+}
+/* third section */
+.box{
+    width: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box img {
+    margin-bottom: 3rem;
+}
+.box h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(22, 37, 66, 1);
+    margin-bottom: 1.5rem;
+}
+.box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+/* footer section */
+footer{
+    /* max-width: 375px; */
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
