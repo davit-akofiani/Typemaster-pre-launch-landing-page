@@ -4,8 +4,9 @@ body{
     overflow-x: hidden;
 }
 /* header section */
-header{
-    width: 327px;
+.header{
+    max-width: 375px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 1.8rem 1.5rem 0 1.5rem;
@@ -153,4 +154,57 @@ footer{
     width: 100%;
     text-align: center;
     margin-bottom: 3.2rem;
+}
+/* tablet version xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+@media screen and (min-width: 375px) {
+    .header{
+        max-width: 768px;
+        width: 100%;
+
+    }
+    .button {
+        width: 11rem; 
+    }
+    .button2{
+        width: 11rem;
+    }
+    .divi{
+        width: 768px;
+        display: flex;
+        justify-content: baseline;
+        margin-top: 4rem;
+    }
+    .image-pad{
+        width: 100%;
+        margin-left: 4.3;
+        height: 425px;
+    }
+    /* second section */
+    .image-div2{
+        height: 320px;
+        width: 214px;
+        background-size: 214px;
+        margin-left: 2.5rem;
+        background-position: center;
+    }
+    .image-div3{
+        width: 445px;
+        height: 320px;
+        background-size: 445px;
+        background-position: center;
+    }
+    /* next section */
+    .next-div{
+        max-width: 768px;
+        display: flex;
+        margin: 5.5rem 3.6 9rem 3.5rem;
+
+    }
+    .next-h2{
+        width: 255px;
+        text-align: start;
+    }
+    .next-p{
+        width: 398px;
+    }
 }
