@@ -197,7 +197,7 @@ footer{
     .next-div{
         max-width: 768px;
         display: flex;
-        margin: 5.5rem 3.6 9rem 3.5rem;
+        margin: 4.5rem 3.6rem 9rem 3.5rem;
 
     }
     .next-h2{
@@ -207,4 +207,24 @@ footer{
     .next-p{
         width: 398px;
     }
+    .third-section{
+        width: 768px;
+        display: grid;
+        gap: 4.5rem 4.4rem;
+        grid-template-columns: auto auto;
+        margin-left: 2.5rem;
+    }
+    .box {
+        display: flex;
+        align-items: flex-start;
+        
+    }
+    .box h2 {
+        text-align: start;
+
+    }
+    .box p {
+        text-align: start;
+    }
+
 }
