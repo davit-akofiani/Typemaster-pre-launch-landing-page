@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color: #F2F2F2;
     font-family: 'Barlow', sans-serif;
     overflow-x: hidden;
 }
@@ -58,7 +58,7 @@ h1{
     background-image: url("../image/mobile/mobile-3.jpg");
     height: 331px;
     overflow: hidden;
-    max-width: 372px;
+    width: 372px;
     background-repeat: no-repeat;
     background-size: 372px;
     border-radius: 1.3rem 0 0 1.3rem;
@@ -227,4 +227,109 @@ footer{
         text-align: start;
     }
 
+}
+@media screen and (min-width: 768px) {
+    .header{
+        max-width: 1110px;
+        width: 100%;
+        margin: 4.4rem 10.03rem 5.2rem;
+    }
+    .divi{
+        width: 100%;
+        position: relative;
+        
+        
+    }
+    .first-section{
+        max-width: 445px;
+        width: 100%;
+        margin-left: 10.03rem;
+        margin-right: 7.5rem;
+    }
+    .image-pad{
+        display: none;
+        
+    }
+    .new-block{
+        width: 100%;
+        background-image: url("../image/desktop/desktop-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        
+    }
+    .second-block{
+        width: 254px;
+        height: 240px;
+        right: -127px;
+        position: absolute;
+        background-color: rgba(232, 239, 242, 1);
+        margin-left: 300px;
+        border-radius: 20px 0 0 20px ;
+
+    }
+    /* button animation */
+    .button:hover {
+        background-color: rgba(22, 37, 66, 1);
+        color: white;
+
+    }
+    .button2:hover {
+        background-color: rgba(255, 155, 98, 1);
+        color: white;
+    }   
+    /* second section */
+    .desktop-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10rem;
+        position: relative;
+        
+    }
+    .free-div{
+        width: 254px;
+        height: 236px;
+        left: -127px;
+        margin-right: 150px;
+        border-radius: 20px;
+        background-color: rgba(232, 239, 242, 1);
+        position: absolute;
+        margin-top: 5rem;
+    }
+    .image-div2{
+        margin-left: 165px;
+    }
+
+    /* next div */
+    .next-div{
+        width: 255px;
+        display: flex;
+        margin-left: 125px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .next-p{
+        width: 255px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: start;
+    }
+
+    /* third section */
+    .third-section{
+        width: 1440px;
+        padding: 0 165px 0 165px;
+        margin-top: 10.5rem;
+        margin-bottom: 8rem;
+        column-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+    .box{
+        width: 255px;
+    }
+    
 }
